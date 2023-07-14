@@ -1,0 +1,52 @@
+body {
+  font-family: "Source Sans 3", sans-serif;
+  /* font-family: ; */
+}
+#hero {
+  background-image: url(../images/background.jpg);
+  background-repeat: center center cover no-repeat;
+  /* background-size: auto; */
+  /* object-fit: cover; */
+  height: 65vh;
+}
+
+.btn-project:hover {
+  transform: translateY(-5px);
+}
+
+nav ul li a.active {
+  /* Your active link styles here */
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.812);
+  background-color: rgb(247, 219, 4);
+
+  padding: 5px 10px 5px 10px;
+}
+
+/* .about-me::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 5px;
+  background: #cd5c5c;
+  right: 950px;
+  top: 800px;
+  position: absolute;
+} */
+@media (min-width: 450px) {
+  h1 {
+    font-size: 1.5rem; /* Font size for 450px and above */
+    padding-top: 60px;
+  }
+  #hero {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #about {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #footer {
+    text-align: center;
+  }
+}
